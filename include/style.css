@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+
+/************************** morphine font *********************/
+@font-face{
+    font-family: Morphine;
+    src: url(../include/morphine.ttf);
+}
+
+.header-name{
+    font-family: Morphine, Arial, Helvetica, sans-serif;
+}
+/************************** morphine font *********************/
+
+
+/*************** shopping cart icon **************/
+.fa::before{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.cart-icon::after{
+    content:"1";
+    padding: 0 4px 0 4px;
+    vertical-align: sub;
+    color: orange;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+}
+
+/*************** shopping cart icon **************/
+
+
+
+
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
